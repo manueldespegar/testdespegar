@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename 'testdespegar/compose/local/django/Dockerfile'
+      filename 'compose/local/django/Dockerfile'
     }
 
   }
